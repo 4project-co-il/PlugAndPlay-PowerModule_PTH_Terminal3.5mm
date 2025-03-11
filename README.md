@@ -1,0 +1,1 @@
+# PlugAndPlay-PowerModule_PTH_Terminal3.5mm
