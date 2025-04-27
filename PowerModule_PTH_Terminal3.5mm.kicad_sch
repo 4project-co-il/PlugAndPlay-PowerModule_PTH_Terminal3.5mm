@@ -7,7 +7,7 @@
 	(title_block
 		(title "PlugAndPlay Power Module - 3.5mm Terminal Connector")
 		(date "2025-01-23")
-		(rev "1")
+		(rev "2")
 		(company "A.B. Yazamut")
 	)
 	(lib_symbols
@@ -642,40 +642,40 @@
 		)
 	)
 	(junction
-		(at 132.08 95.25)
+		(at 135.89 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1301ee03-56f9-41a2-8885-3a17af68fae7")
+		(uuid "0ee20123-cff0-4ecd-ae7c-28c456f9c1fd")
+	)
+	(junction
+		(at 135.89 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e04e2dd-2926-433e-86c6-f32b2088f2c0")
+	)
+	(junction
+		(at 132.08 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb989329-7fb5-4527-82ae-bba848e0757c")
 	)
 	(junction
 		(at 127 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "337dd5d0-6e9c-4bc8-b6ca-cacbb8e04e04")
+		(uuid "e0d0beae-3a94-4fa9-b63c-903974806159")
+	)
+	(junction
+		(at 124.46 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb56c3bd-7e70-4c12-9a19-37f7ffab8ba4")
 	)
 	(junction
 		(at 124.46 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5aeff0af-93ba-4d74-8a02-66ed143047f7")
-	)
-	(junction
-		(at 135.89 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "703307f5-a44f-42c0-acff-413299fd5bed")
-	)
-	(junction
-		(at 124.46 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "929eb607-7791-400c-93f6-2b5f94e32a69")
-	)
-	(junction
-		(at 135.89 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b23fd02f-81c3-441f-907d-f852234a13ab")
+		(uuid "ff2d456e-1cc1-4768-8d34-f79282b9e2a4")
 	)
 	(no_connect
 		(at 135.89 90.17)
@@ -687,23 +687,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 132.08 95.25)
+			(xy 132.08 92.71) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f7f7c3a-c80e-48b2-b3b2-75a7a1ae46b2")
-	)
-	(wire
-		(pts
-			(xy 127 92.71) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "165d7234-0451-459b-b15a-449b2f6be870")
+		(uuid "03a4ea41-f8b9-4f6e-a37c-65bbd96c7874")
 	)
 	(wire
 		(pts
@@ -717,36 +707,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 127 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a79636b-4e57-47ff-a2aa-ee71f82d09df")
-	)
-	(wire
-		(pts
-			(xy 132.08 95.25) (xy 124.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c213bb0-173e-460f-aa63-4324b7a463c7")
-	)
-	(wire
-		(pts
-			(xy 132.08 87.63) (xy 132.08 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff96bbd-42cf-4809-9b0e-d2eb05f638b4")
-	)
-	(wire
-		(pts
 			(xy 135.89 92.71) (xy 135.89 95.25)
 		)
 		(stroke
@@ -757,13 +717,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 85.09)
+			(xy 127 85.09) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54f5425c-1e1c-4916-965d-06a0deae56ee")
+		(uuid "5b8c42f9-9c07-46ce-bc4c-1c38bb54daff")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675739c8-297f-44e5-8e61-0dde7af25287")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70909380-faf4-4994-8e0a-0b9f867ef547")
 	)
 	(wire
 		(pts
@@ -777,6 +757,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 97.79) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0604e8-c606-4f88-8bb2-b5e62684e50e")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 124.46 87.63)
 		)
 		(stroke
@@ -787,7 +777,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 127 92.71)
+			(xy 127 81.28) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -797,13 +787,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 132.08 87.63)
+			(xy 127 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c629c622-fd54-4203-933e-bd151db741b5")
+		(uuid "bae0a79b-b6ce-4bc6-abc2-3f960b8c7ee3")
 	)
 	(wire
 		(pts
@@ -824,6 +814,16 @@
 			(type default)
 		)
 		(uuid "eca9283f-7721-434b-83f3-a5f49ca270aa")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febb95da-2228-4363-a5a7-0429005d23bc")
 	)
 	(symbol
 		(lib_id "power:VDC")
